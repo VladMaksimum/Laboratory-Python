@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "question": {
+            "type": "string"
+        },
+        "options":{
+            "type":"array",
+            "maxLength": 4,
+            "minLength": 4
+        },
+        "answer": {
+            "anyOf": [
+                {"type":"string"},
+                {"type":"integer"}
+            ]
+        }
+    },
+
+    "required": ["question", "options", "answer"]
+}
