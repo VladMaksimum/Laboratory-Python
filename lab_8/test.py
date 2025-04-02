@@ -1,8 +1,13 @@
 from func_for_csv import Show
+from func_for_csv import Info
+from func_for_csv import DelNaN
+from func_for_csv import MakeDS
 
 
-Show("lab_8/username.csv", type='r', lines=3)
-
+#Show("lab_8/username.csv", type='r', lines=3)
+#Info("lab_8/username.csv")
+#DelNaN("lab_8/username.csv")
+MakeDS("lab_8/username.csv")
 
 
 '''
