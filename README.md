@@ -1,1 +1,1 @@
-# Laboratory-Python
+Практические задания по Python за 2 семестр
