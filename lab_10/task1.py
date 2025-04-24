@@ -15,4 +15,3 @@ for n in range(1,8):
 plt.title('Полиномы Лежандра')
 plt.grid()
 plt.savefig("lab_10/task1.png")
-
